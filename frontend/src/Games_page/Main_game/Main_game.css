@@ -1,0 +1,14 @@
+.main_game{
+    display:grid;
+    grid-column: 2;
+    grid-template-columns:20vh 80vh 20vh ;
+    grid-template-rows: 9vh 77vh 9vh;
+    /*position:fixed;
+    left:10%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    
+}

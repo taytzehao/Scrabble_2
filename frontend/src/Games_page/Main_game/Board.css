@@ -1,0 +1,43 @@
+.board_holder{
+    grid-column:2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+.board{
+    width: 70vh;
+    height: 70vh;
+    font-size: 1vh; 
+    display:grid;
+    grid-template-columns:repeat(15,1fr);
+    grid-template-rows:repeat(15,1fr);
+    border:1px solid black
+}
+
+.bl{
+    border: 1.5px solid;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.tw{
+    background-color:rgb(240, 21, 21)
+}
+
+.dw{
+    background-color:rgb(246, 227, 186)
+}
+
+.dl{
+    background-color:rgb(166, 222, 248)
+}
+
+.tl{
+    background-color:rgb(89, 192, 240)
+}

@@ -1,0 +1,6 @@
+.Main_divider{
+    display:grid;
+    grid-template-columns:20vw 60vw 20vw ;
+    grid-template-rows: 100vh;
+    justify-items: center;
+}

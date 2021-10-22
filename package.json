@@ -1,0 +1,21 @@
+{
+  "name": "scrabble2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./backend.src/index.js",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently -n 'server_auth,server_socket,client,server_reset' -c 'red,blue,green,yellow' \"nodemon ./backend/src/index.js\" \"nodemon ./backend/src/Gameserver.js\" \"npm run client\"  \"nodemon ./backend/src/Resetpassword.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2"
+  }
+}

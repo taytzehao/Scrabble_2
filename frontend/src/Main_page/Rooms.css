@@ -1,0 +1,17 @@
+.Room_modal{
+    width: 50vw;
+    height: 50vh;
+}
+.close_modal{
+    position:static;
+    display:block
+}
+.Room_holder{
+    display:block
+}
+.room{
+    display:block
+}
+.cancelbtn.mainpage{
+    width: 100%;
+  }

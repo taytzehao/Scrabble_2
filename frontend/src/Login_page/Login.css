@@ -1,0 +1,152 @@
+body{
+    height: 100%
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #f0f2f5;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-section {
+    justify-self: center;
+    align-self: center;
+    display:inline-block;
+    overflow: hidden;  
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.tile{
+    width:9vh;
+    height:9vh;
+    border-width: 1px 3px 3px 1px;
+    border-style: solid ridge ridge solid;
+    border-radius:10%;  
+    padding:0;
+    display:inline-block 
+
+}
+
+.tile p:first-child{
+    font-size: 4.5vh;
+    padding:0;
+    margin: 0;
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+.tile p:last-child{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2vh;
+    text-align: right;
+
+}
+
+
+.login-form {
+    
+    margin-top:5vh;
+    display:inline-block;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+.login-form input{
+    display: block;
+}
+.log-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px;
+}
+.login-form input {
+    display: block;
+    font-size: 15px;
+    padding: 15px 20px;
+    justify-self:center;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+.log-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.main-section .login-form input[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 11px 20px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+.main-section .login-form input[type="submit"]:hover{
+    background-color: #166fe5;
+}
+.Google_login span{
+    flex-basis: 100%;
+    text-justify:center
+}
+.log-content a {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #1877f4;
+}
+.log-content form :nth-child(4):hover{
+    text-decoration: underline;
+}
+
+
+::placeholder {
+    color: #a9a9a9;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.Forgot_header{
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom:3vh;
+    width:70vh;
+}
+
+a:link{
+    text-decoration: none; 
+}
+a:hover{
+    text-decoration: underline; 
+    background-color:inherit;
+}
+
+.error{
+    margin-top:-10px;
+    margin-bottom:12px;
+    padding-left: 14px;
+    border: 3px solid red;
+    background-color: #f06065;
+    text-align: left;
+    border-radius: 5px;
+}

@@ -1,0 +1,86 @@
+.delete_img{
+    width:5vh;
+}
+.delete_img:hover{
+    opacity:0.5
+}
+.delete_img:active{
+    opacity:0.2
+}
+
+.tile_container{
+    align-items: center;
+}
+.vertical{
+    display:grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 1fr 17fr 2fr 4fr;
+    
+    }
+
+.vertical .name_display{
+    grid-row:1;
+    
+    }
+.vertical .score_display{
+    grid-row:2;
+    }
+.vertical .tile_holder{
+    padding-left: 6vh;
+    }
+.vertical .tile_holder.game_tile{
+    justify-self:center;
+    }
+.name_display,.score_display{
+    
+    font-size: 3vh;  
+    text-align: left;
+}
+.horizontal{
+    display:grid;
+    grid-template-columns:1fr 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+
+.horizontal .name_display{
+    grid-row:1;
+    
+    }
+.horizontal .score_display{
+    grid-row:2;
+    }
+.horizontal .tile_holder{
+    grid-row:1/3;
+    grid-column:2/4;
+    padding-left: 6vh;
+    }
+.name_display,.score_display{    
+    font-size: 2.4vh;    
+}
+.vertical .name_display,.vertical .score_display{
+    padding-left: 7vh;
+}
+.vertical .delete_img{
+    margin-left: 7vh;
+}
+.horizontal .name_display,.horizontal .score_display{
+    padding-left: 2vh;
+    vertical-align: text-bottom;
+    
+    /*display: flex;
+    justify-content:baseline;*/
+    
+}
+.horizontal .name_display{
+    align-self:end
+}
+.horizontal .score_display{
+    align-self:start
+}
+.delete_img,.challenge_button{
+    justify-self: center;
+}
+
+button.gamesbtn{
+    padding:3px
+}

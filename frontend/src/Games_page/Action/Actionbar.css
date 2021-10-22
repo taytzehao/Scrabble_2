@@ -1,0 +1,11 @@
+.Action_bar{
+   display:flex;
+   flex-direction:column;
+   height: 80%;
+   width: 15vw;
+   justify-content: center;
+}
+.score_button,.draw_button{
+    width:80%;
+    margin:5vh;
+}

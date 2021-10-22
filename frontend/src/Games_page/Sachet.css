@@ -1,0 +1,52 @@
+.game_tile{
+    width:6vh;
+    height:6vh;
+    border-width: 1px 3px 3px 1px;
+    border-style: solid ridge ridge solid;
+    border-radius:10%;   
+    background-color:white;
+    position:relative;
+
+}
+
+
+
+.game_tile p:first-child{
+    font-size: 80%;
+    margin-top: 0.5vh;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.game_tile p:last-child{
+    margin-top: 0;
+    margin-bottom: 2vh;
+    font-size: 15%;
+    text-align: right;
+    position:absolute;
+    top:70%;
+    left:80%;
+
+}
+
+.placed{
+    width:95%;
+    height:95%;
+    border-width: 1px 1px 1px 1px;
+    position:absolute
+}
+
+.placed p{
+    margin:0px;
+    
+
+}
+.placed p:first-child{
+    font-size: 2vh;
+    margin-top: 0vh;
+}
+.placed p:last-child{
+    font-size: 0.5vh;
+    margin-bottom: 0.2vh;
+}
